@@ -41,6 +41,15 @@ export default function Nav() {
           PLASTIC2BITCOIN
         </span>
         <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
+          {/* Mobile only: Buy $PLX link to the left of the logo */}
+          <a
+            href={DEXSCREENER_PLX}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="md:hidden text-bse-cyan font-semibold hover:text-bse-glow transition-colors py-2 text-sm whitespace-nowrap"
+          >
+            Buy $PLX
+          </a>
           <img
             src={logoUrl}
             alt="Blue Sword Energy"
@@ -48,7 +57,7 @@ export default function Nav() {
             height={40}
             className="h-8 w-8 md:h-10 md:w-10 object-contain flex-shrink-0"
           />
-          {/* Desktop links */}
+          {/* Desktop links (dropdown Buy $PLX only on desktop) */}
           <div className="hidden md:flex items-center gap-4 md:gap-6 text-sm">
             {links.map(({ href, label }) => (
               <a
