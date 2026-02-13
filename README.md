@@ -52,4 +52,4 @@ Images live in `public/images/`. The crypto mining proposal PDF is in `public/` 
    In the Vercel project: **Settings** → **Domains** → add your domain and follow the DNS instructions at your registrar.
 
 5. **Search engines**  
-   After the site is live, add it in [Google Search Console](https://search.google.com/search-console) and submit `https://your-site.com/sitemap.xml`. The project includes `/sitemap.xml` and `/robots.txt`.
+   After the site is live, add it in [Google Search Console](https://search.google.com/search-console) and submit `https://plastic2bitcoin.org/sitemap.xml`. The project includes `/sitemap.xml` and `/robots.txt`.
