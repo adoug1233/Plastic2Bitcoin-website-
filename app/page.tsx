@@ -373,7 +373,7 @@ export default function Home() {
                 Energy team a visit to explore a swift partnership with the African region.
               </p>
               <a
-                href={"/" + encodeURIComponent("BSE - CRYPTO MINING PROPOSAL (1).pdf")}
+                href={"/images/" + encodeURIComponent("BSE - CRYPTO MINING PROPOSAL 2.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-5 py-3 min-h-[48px] rounded-lg bg-bse-blue/20 text-bse-cyan border border-sky-500/30 hover:bg-bse-blue/30 hover:border-sky-500/50 transition-colors font-semibold text-sm sm:text-base"

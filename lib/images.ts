@@ -3,7 +3,7 @@ export const images = {
   hero: 'hero.jpeg',
   team1: 'team1.jpeg',
   team2: 'team2.jpeg',
-  revolution: 'revolution.jpeg',
+  revolution: 'WhatsApp Image 2026-02-10 at 19.01.24 (1).jpeg',
   techBarrels: 'tech-barrels.jpeg',
   techTanks: 'tech-tanks.jpeg',
   techSword: 'tech-sword.jpeg',
